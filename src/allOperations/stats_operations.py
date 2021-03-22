@@ -43,7 +43,7 @@ class StatsOperations:
 
     @staticmethod
     def variance(numbers: list) -> float:
-        mean = DescriptiveStatisticsOperations.mean(numbers)
+        mean = StatsOperations.mean(numbers)
         squaredDifferences = []
         for number in numbers:
             squaredDifferences.append(BasicOperations.square(BasicOperations.subtraction(mean, number)))
@@ -52,14 +52,14 @@ class StatsOperations:
 
     @staticmethod
     def standardDeviation(numbers: list) -> float:
-        standardDeviation = BasicOperations.squareRoot(DescriptiveStatisticsOperations.variance(numbers))
+        standardDeviation = BasicOperations.squareRoot(StatsOperations.variance(numbers))
         return standardDeviation
 
     @staticmethod
     def zScore(numbers: list) -> list:
         zScores = []
-        standardDeviation = DescriptiveStatisticsOperations.standardDeviation(numbers)
-        mean = DescriptiveStatisticsOperations.mean(numbers)
+        standardDeviation = StatsOperations.standardDeviation(numbers)
+        mean = StatsOperations.mean(numbers)
         for number in numbers:
             zScores.append(BasicOperations.division(BasicOperations.subtraction(number, mean), standardDeviation))
         return zScores
