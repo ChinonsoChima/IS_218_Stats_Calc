@@ -1,7 +1,7 @@
 from src.allOperations.basic_operations import BasicOperations
 
 
-class DescriptiveStatisticsOperations:
+class StatsOperations:
     @staticmethod
     def mean(numbers: list) -> float:
         summation = 0.0
