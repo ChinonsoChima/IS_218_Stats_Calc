@@ -4,14 +4,26 @@
 
 
 
-#Contributors
+# Contributors
 - Chinonso Chima-Anyanka
 - Orville Dillon
 
-#Sources
+# Sources
 
 
 ### stats_operations methods
+- mean
+- median
+- mode
+- variance
+- Standard deviation
+- zScore
 
 ### randomFunctions methods
+- randNum / randNumBySeed
+- randNumBySeedList
+- randItemFromList / randItemFromListBySeed
+- randItemsFromList / randItemsFromListBySeed
+-
+
 
