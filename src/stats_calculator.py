@@ -8,25 +8,25 @@ class DescriptiveStatisticsCalculator(Calculator):
         Calculator.__init__(self)
 
     def mean(self, input_list: list) -> float:
-        self.results.append(StatsOperations.mean(input_list))
-        return self.results[-1]
+        result = StatsOperations.mean(input_list)
+        return result
 
     def median(self, input_list: list) -> float:
-        self.results.append(StatsOperations.median(input_list))
-        return self.results[-1]
+        result = StatsOperations.median(input_list)
+        return result
 
     def modes(self, input_list: list) -> list:
-        self.results.append(StatsOperations.modes(input_list))
-        return self.results[-1]
+        result = StatsOperations.modes(input_list)
+        return result
 
     def variance(self, input_list: list) -> float:
-        self.results.append(StatsOperations.variance(input_list))
-        return self.results[-1]
+        result = StatsOperations.variance(input_list)
+        return result
 
     def standardDeviation(self, input_list: list) -> float:
-        self.results.append(StatsOperations.standardDeviation(input_list))
-        return self.results[-1]
+        result = StatsOperations.standardDeviation(input_list)
+        return result
 
     def zScores(self, input_list: list) -> list:
-        self.results.append(StatsOperations.zScore(input_list))
-        return self.results[-1]
+        result = StatsOperations.zScore(input_list)
+        return result
