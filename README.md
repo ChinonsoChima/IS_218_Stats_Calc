@@ -4,10 +4,6 @@
 [![Build Status](https://travis-ci.com/ChinonsoChima/IS_218_Stats_Calc.svg?branch=main)](https://travis-ci.com/ChinonsoChima/IS_218_Stats_Calc)
 
 
-# Contributors
-- Chinonso Chima-Anyanka
-- Orville Dillon
-
 # Sources
 
 
@@ -24,6 +20,6 @@
 - randNumBySeedList
 - randItemFromList / randItemFromListBySeed
 - randItemsFromList / randItemsFromListBySeed
--
+
 
 
